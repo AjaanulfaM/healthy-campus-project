@@ -1,0 +1,107 @@
+*{
+    font-family: 'EB Garamond';
+}
+body{
+    margin: 0px;
+}
+main{
+    padding: 20px;
+}
+hr{
+    border-color: hsl(43, 71%, 64%);
+    width: 5%;
+}
+#main_hr{
+    width: 45%;
+}
+
+
+
+.dropdown{
+    display: inline-block;
+}
+header{
+    background-color: rgb(1, 1, 56);
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+}
+.dropdown button{
+    color: white;
+    height: 60px;
+    width: 65px;
+    font-size: 20px;
+    background-color: rgb(1, 1, 56);
+    border: none;
+}
+.fa-solid.fa-bars.fa-2x:hover{
+    font-size: 45px;
+}
+.dropdown .content{
+    display: none;
+    background-color: rgb(1, 1, 56);
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 2px;
+}
+.dropdown a:before{
+    content: "▶ ";
+}
+.dropdown button:hover{
+    cursor: pointer;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown a:hover{
+    text-decoration: underline;
+    font-size: 30.5px;
+}
+
+
+
+.title h1{
+    font-size: 60px;
+    color: hsl(224, 80%, 29%);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+main img{
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+#studylogo{
+    width: 50px;
+}
+main h1{
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+main a:hover{
+    color: rgb(60, 59, 59);
+    font-size: 16.09px;
+}
+
+
+
+#backtotop{
+    display: flex;
+    justify-content: center;
+}
+

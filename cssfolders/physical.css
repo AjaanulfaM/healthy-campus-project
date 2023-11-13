@@ -1,0 +1,403 @@
+*{
+    font-family: 'EB Garamond';
+}
+body{
+    margin: 0px;
+}
+main{
+    padding: 20px;
+}
+
+
+
+.dropdown{
+    display: inline-block;
+}
+header{
+    background-color: rgb(1, 1, 56);
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+}
+.dropdown button{
+    color: white;
+    height: 60px;
+    width: 65px;
+    font-size: 20px;
+    background-color: rgb(1, 1, 56);
+    border: none;
+}
+.fa-solid.fa-bars.fa-2x:hover{
+    font-size: 45px;
+}
+.dropdown .content{
+    display: none;
+    background-color: rgb(1, 1, 56);
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 2px;
+}
+.dropdown a:before{
+    content: "▶ ";
+}
+.dropdown button:hover{
+    cursor: pointer;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown a:hover{
+    text-decoration: underline;
+    font-size: 30.5px;
+}
+
+
+
+hr{
+    border-color: hsl(43, 71%, 64%);
+    width: 20%;
+}
+#main_hr{
+    width: 45%;
+}
+
+
+
+.title h1{
+    font-size: 60px;
+    color: hsl(224, 80%, 29%);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.side_content {
+    float: right;
+    height: auto;
+    width: 18%;
+    margin-left: 20px;
+    margin-top: 75px;
+    background-color: white;
+    box-shadow: 1px 1px 3px darkgrey, -1px -1px 4px darkgrey;
+}
+.side_content p{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+.side_content h2{
+    font-size: 33px;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+
+
+
+main h2{
+    font-size: 50px;
+    text-decoration: underline;
+    color: hsl(224, 80%, 29%);
+}
+main p{
+    font-size: 28px;
+}
+main h3{
+    font-size: 40px;
+    color: hsl(224, 80%, 29%);
+    text-align: center;
+    text-decoration: underline;
+}
+main h4{
+    font-size:35px;
+}
+ol li{
+   font-size: 28px; 
+   text-decoration: none;
+   color: black;
+   width: 100%;
+}
+
+
+
+.enduranceimg{
+    text-align: center;
+}
+.enduranceimg img{
+    box-shadow: 3px 3px 5px darkgrey, -3px -3px 5px darkgrey;
+    width: 75%;
+}
+.strengthimg{
+    text-align: center;
+}
+.strengthimg img{
+    box-shadow: 3px 3px 5px darkgrey, -3px -3px 5px darkgrey;
+    width: 75%;
+}
+#weightlifting_title{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.weightliftingimg{
+    text-align: center;
+}
+.weightliftingimg img{
+    box-shadow: 3px 3px 5px darkgrey, -3px -3px 5px darkgrey;
+    width: 75%;
+}
+#calisthenics_title{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.calisthenicsimg{
+    text-align: center;
+}
+.calisthenicsimg img{
+    box-shadow: 3px 3px 5px darkgrey, -3px -3px 5px darkgrey;
+    width: 75%;
+}
+ul li{
+    font-size: 28px; 
+    text-decoration: none;
+    color: black;
+    width: 100%; 
+}
+
+
+
+.weightlifting_proscons{
+    display: flex;
+    justify-content: space-between;
+}
+#weight_cons{
+    margin-right: 10px;
+    width: 45%;
+}
+#weight_cons h4{
+    text-align: center;
+}
+#weight_cons ul{
+    text-align: left;
+}
+#weight_pros{
+    margin-left: 10px;
+    width: 45%;
+}
+#weight_pros h4{
+    text-align: center;
+}
+#weight_pros ul{
+    text-align: left;
+}
+
+
+
+.calisthenics_proscons{
+    display: flex;
+    justify-content: space-between;
+}
+#calisthenic_cons{
+    margin-right: 10px;
+    width: 45%;
+}
+#calisthenic_cons h4{
+    text-align: center;
+}
+#calisthenic_cons ul{
+    text-align: left;
+}
+#calisthenic_pros{
+    margin-left: 10px;
+    width: 45%;
+}
+#calisthenic_pros h4{
+    text-align: center;
+}
+#calisthenic_pros ul{
+    text-align: left;
+}
+
+
+
+.balanceimg{
+    text-align: center;
+}
+.balanceimg img{
+    box-shadow: 3px 3px 5px darkgrey, -3px -3px 5px darkgrey;
+    width: 75%;
+}
+
+
+
+.flexibilityimg{
+    text-align: center;
+}
+.flexibilityimg img{
+    box-shadow: 3px 3px 5px darkgrey, -3px -3px 5px darkgrey;
+    width: 75%;
+}
+#backtotop{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+.fa-brands.fa-square-youtube.fa-6x{
+    color: hsl(12, 76%, 46%);
+    margin-left: 0px;
+}
+.fa-brands.fa-square-youtube.fa-6x:hover{
+    color: hsl(12, 76%, 52%);
+    font-size: 6.1em;
+    filter: drop-shadow(10px 10px 20px hsl(12, 71%, 60%));
+}
+.fa-brands.fa-square-instagram.fa-6x{
+    color: hsl(311, 49%, 35%);
+    margin-left: 10px;
+}
+.fa-brands.fa-square-instagram.fa-6x:hover{
+    color: hsl(311, 49%, 41%);
+    font-size: 6.1em;
+    filter: drop-shadow(1px 1px 20px hsl(311, 25%, 50%));
+}
+.fa-brands.fa-square-facebook.fa-6x{
+    margin-left: 10px;
+    color: hsl(218, 88%, 40%);
+}
+.fa-brands.fa-square-facebook.fa-6x:hover{
+    font-size: 6.1em;
+    color: hsl(218, 88%, 46%);
+    filter: drop-shadow(1px 1px 20px hsl(218, 67%, 62%));
+}
+.fa-brands.fa-square-x-twitter.fa-6x{
+    margin-left: 10px;
+    color: hsl(0, 0%, 0%);
+}
+.fa-brands.fa-square-x-twitter.fa-6x:hover{
+    font-size: 6.1em;
+    color: hsl(0, 0%, 6%);
+    filter: drop-shadow(1px 1px 20px grey);
+}
+
+
+@media screen and (max-width: 700px){
+    main{
+        margin: 0px;
+        padding: 10px;
+    }
+    .title h1{
+        font-size: 35px;
+    }
+    .side_content {
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    .side_content p{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .side_content h2{
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        color: black
+    }
+
+
+
+    main h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    main h4{
+        font-size: 22px;
+        text-align: center;
+    }
+    main h3{
+        font-size: 30px;
+    }
+    main p{
+        font-size: 18px;
+    }
+    ol li{
+        font-size: 18px;
+    }
+    ol{
+        padding: 0px;
+        margin-left: 17px;
+    }
+    ul li{
+        font-size: 18px;
+    }
+    ul{
+        padding: 0px;
+        margin-left: 17px;
+    }
+
+
+
+    .enduranceimg img{
+        width: 100%;
+    } 
+
+
+
+    .strengthimg img{
+        width: 100%;
+    } 
+    #weightlifting_title{
+        font-size: 25px;
+    }  
+    .weightliftingimg img{
+        width: 100%;
+    }
+    .calisthenicsimg img{
+        width: 100%;
+    }
+
+
+
+    .balanceimg img{
+        width: 100%;
+    }
+
+
+
+    .flexibilityimg img{
+        width: 100%;
+    }
+
+
+
+    .icons{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+}
+

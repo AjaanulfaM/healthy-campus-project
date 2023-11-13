@@ -1,0 +1,81 @@
+.dropdown{
+    display: inline-block;
+}
+header{
+    background-color: rgb(1, 1, 56);
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+}
+.dropdown button{
+    color: white;
+    height: 60px;
+    width: 65px;
+    font-size: 20px;
+    background-color: rgb(1, 1, 56);
+    border: none;
+}
+.fa-solid.fa-bars.fa-2x:hover{
+    font-size: 45px;
+}
+.dropdown .content{
+    display: none;
+    background-color: rgb(1, 1, 56);
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 2px;
+}
+.dropdown a:before{
+    content: "▶ ";
+}
+.dropdown button:hover{
+    cursor: pointer;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown a:hover{
+    text-decoration: underline;
+    font-size: 30.5px;
+}
+
+
+
+.nutritionvalue_table{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    width: 95%;
+}
+#border1{
+    height: 1px;
+    background-color: black;
+    border: 1px solid 
+}
+#border2{
+    height: 10px;
+    background-color: black;
+    border: 1px solid 
+}
+#border3{
+    height: 4px;
+    background-color: black;
+    border: 1px solid 
+}
+#backtoimagegallery{
+    text-align: center;
+}

@@ -1,0 +1,229 @@
+*{
+    font-family: 'EB Garamond';
+}
+body{
+    margin: 0px;
+}
+main{
+    padding: 20px;
+}
+
+
+
+.dropdown{
+    display: inline-block;
+}
+header{
+    background-color: rgb(1, 1, 56);
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+}
+.dropdown button{
+    color: white;
+    height: 60px;
+    width: 65px;
+    font-size: 20px;
+    background-color: rgb(1, 1, 56);
+    border: none;
+}
+.fa-solid.fa-bars.fa-2x:hover{
+    font-size: 45px;
+}
+.dropdown .content{
+    display: none;
+    background-color: rgb(1, 1, 56);
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 2px;
+}
+.dropdown a:before{
+    content: "▶ ";
+}
+.dropdown button:hover{
+    cursor: pointer;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown a:hover{
+    text-decoration: underline;
+    font-size: 30.5px;
+}
+
+
+
+div h1{
+    color: hsl(224, 80%, 29%);
+    font-size:60px;
+    text-align: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px
+}
+.title img{
+    height: 100px;
+}
+#main_hr{
+    border-color: hsl(51, 78%, 63%);
+    width: 75%;
+}
+hr{
+    border-color: hsl(51, 78%, 63%);
+    width: 20%;
+}
+
+
+
+main p{
+    font-size: 28px;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+main h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+    color: hsl(224, 80%, 29%);
+    text-decoration: underline;
+}
+#about{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: hsl(224, 80%, 29%);
+    text-decoration: underline;
+}
+#group{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#group:hover{
+    filter: drop-shadow(10px 10px 20px black);
+    width: 101%;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+.fa-brands.fa-square-youtube.fa-6x{
+    color: hsl(12, 76%, 46%);
+    margin-left: 0px;
+}
+.fa-brands.fa-square-youtube.fa-6x:hover{
+    color: hsl(12, 76%, 52%);
+    font-size: 6.1em;
+    filter: drop-shadow(10px 10px 20px hsl(12, 71%, 60%));
+}
+.fa-brands.fa-square-instagram.fa-6x{
+    color: hsl(311, 49%, 35%);
+    margin-left: 10px;
+}
+.fa-brands.fa-square-instagram.fa-6x:hover{
+    color: hsl(311, 49%, 41%);
+    font-size: 6.1em;
+    filter: drop-shadow(1px 1px 20px hsl(311, 25%, 50%));
+}
+.fa-brands.fa-square-facebook.fa-6x{
+    margin-left: 10px;
+    color: hsl(218, 88%, 40%);
+}
+.fa-brands.fa-square-facebook.fa-6x:hover{
+    font-size: 6.1em;
+    color: hsl(218, 88%, 46%);
+    filter: drop-shadow(1px 1px 20px hsl(218, 67%, 62%));
+}
+.fa-brands.fa-square-x-twitter.fa-6x{
+    margin-left: 10px;
+    color: hsl(0, 0%, 0%);
+}
+.fa-brands.fa-square-x-twitter.fa-6x:hover{
+    font-size: 6.1em;
+    color: hsl(0, 0%, 6%);
+    filter: drop-shadow(1px 1px 20px grey);
+}
+
+
+
+#backtotop{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 700px){
+    main{
+        padding: 10px;
+    }
+
+
+
+    div h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .title img{
+        height: 80px;
+    }
+    #main_hr{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    hr{
+        width: 100px;
+    }
+    
+    
+    
+    main p{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    main h2{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #about{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    #group{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    
+    
+    
+    .icons{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
